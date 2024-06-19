@@ -1,9 +1,12 @@
 <div class="header">
     <div class="site-img">
-        <img src="https://i.pinimg.com/564x/23/78/d2/2378d22e3e1b32d2c8a84cd220140337.jpg">
+        <!-- Property Binding -->
+        <img [src]="imageUrl">
     </div>
     <div class="site-slogan">
-        <h2>Your one stop shop for Everything</h2>
+        <!-- String Interpolation -->
+        <!-- <h2>{{slogan}}</h2> -->
+         <h2>{{getSlogan()}}</h2>
         <button type="button" class="btn btn-success">Buy Now</button>
     </div>
 

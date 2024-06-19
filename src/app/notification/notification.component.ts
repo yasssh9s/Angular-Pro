@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NotificationComponent {
 
+  displayNotification : boolean = false
+
 }
